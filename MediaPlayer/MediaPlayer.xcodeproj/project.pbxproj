@@ -1,0 +1,1027 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C883BE1AA781F8DE12A06FC /* Pods_MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C6380E6593DE2E645FC32A /* Pods_MediaPlayer.framework */; };
+		EB2B5FA11F50108E003E687F /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2B5FA01F50108E003E687F /* Tools.swift */; };
+		EB2B5FA81F517310003E687F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB2B5FA71F517310003E687F /* MapKit.framework */; };
+		EB2B5FAA1F5173D0003E687F /* PinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2B5FA91F5173D0003E687F /* PinAnnotation.swift */; };
+		EB32B7FC1F4C1AF500F7BC37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B7FB1F4C1AF500F7BC37 /* AppDelegate.swift */; };
+		EB32B8011F4C1AF500F7BC37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB32B7FF1F4C1AF500F7BC37 /* Main.storyboard */; };
+		EB32B8031F4C1AF500F7BC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB32B8021F4C1AF500F7BC37 /* Assets.xcassets */; };
+		EB32B8111F4C1AF500F7BC37 /* MediaPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B8101F4C1AF500F7BC37 /* MediaPlayerTests.swift */; };
+		EB32B81C1F4C1AF500F7BC37 /* MediaPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B81B1F4C1AF500F7BC37 /* MediaPlayerUITests.swift */; };
+		EB32B8321F4C463900F7BC37 /* LoginTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B8311F4C463900F7BC37 /* LoginTools.swift */; };
+		EB32B8341F4C465000F7BC37 /* FavoritesTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B8331F4C465000F7BC37 /* FavoritesTools.swift */; };
+		EB32B83A1F4C467C00F7BC37 /* PlayerTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B8391F4C467C00F7BC37 /* PlayerTools.swift */; };
+		EB32B83E1F4C469D00F7BC37 /* TopTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B83D1F4C469D00F7BC37 /* TopTools.swift */; };
+		EB32B84E1F4C4ACF00F7BC37 /* SettingGeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B84D1F4C4ACF00F7BC37 /* SettingGeneralViewController.swift */; };
+		EB32B8501F4C4AE000F7BC37 /* EditProfilelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B84F1F4C4AE000F7BC37 /* EditProfilelViewController.swift */; };
+		EB32B8521F4C4B8400F7BC37 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B8511F4C4B8400F7BC37 /* PlayerViewController.swift */; };
+		EB32B8541F4C4B9400F7BC37 /* ArtistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B8531F4C4B9400F7BC37 /* ArtistDetailViewController.swift */; };
+		EB32B8561F4C4BA200F7BC37 /* MapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B8551F4C4BA200F7BC37 /* MapDetailViewController.swift */; };
+		EB32B8591F4C4C0600F7BC37 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B8581F4C4C0600F7BC37 /* LoginViewController.swift */; };
+		EB32B85B1F4C4C1800F7BC37 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B85A1F4C4C1800F7BC37 /* RegisterViewController.swift */; };
+		EB32B85D1F4C4C2400F7BC37 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B85C1F4C4C2400F7BC37 /* ForgotPasswordViewController.swift */; };
+		EB32B85F1F4C7D3500F7BC37 /* AlbumListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB32B85E1F4C7D3500F7BC37 /* AlbumListTableViewCell.swift */; };
+		EB4D9CA31F6EEE65008C7D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4D9CA21F6EEE65008C7D7C /* LaunchScreen.storyboard */; };
+		EB5196421F6ACEB800CF43B1 /* LiveListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5196411F6ACEB800CF43B1 /* LiveListViewController.swift */; };
+		EB654AB81F6969C700E0658C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB654ABA1F6969C700E0658C /* Localizable.strings */; };
+		EB940A391F6C1A2900F212B1 /* ListsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB940A371F6C1A2900F212B1 /* ListsDetailViewController.swift */; };
+		EB940A3A1F6C1A2900F212B1 /* ListsDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB940A381F6C1A2900F212B1 /* ListsDetailTableViewCell.swift */; };
+		EB940A3E1F6C1A5000F212B1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB940A3C1F6C1A5000F212B1 /* SearchViewController.swift */; };
+		EB940A3F1F6C1A5000F212B1 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB940A3D1F6C1A5000F212B1 /* SearchTableViewCell.swift */; };
+		EB940A411F6C1D7000F212B1 /* UserTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB940A401F6C1D7000F212B1 /* UserTools.swift */; };
+		EB94B64B1F6BE9FE0013B016 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B6481F6BE9FE0013B016 /* UsersViewController.swift */; };
+		EB94B64C1F6BE9FE0013B016 /* userDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B6491F6BE9FE0013B016 /* userDetailViewController.swift */; };
+		EB94B64D1F6BE9FE0013B016 /* userDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B64A1F6BE9FE0013B016 /* userDetailTableViewCell.swift */; };
+		EB94B6501F6BEA210013B016 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B64E1F6BEA210013B016 /* FavoriteViewController.swift */; };
+		EB94B6511F6BEA210013B016 /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B64F1F6BEA210013B016 /* FavoriteTableViewCell.swift */; };
+		EB94B7631F6C15760013B016 /* 50 cent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7621F6C15760013B016 /* 50 cent.mp3 */; };
+		EB94B78E1F6C15990013B016 /* AxwellIngrosso - More Than You Know.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7641F6C15990013B016 /* AxwellIngrosso - More Than You Know.mp3 */; };
+		EB94B78F1F6C15990013B016 /* B S O Gladiador -Now we are free.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7651F6C15990013B016 /* B S O Gladiador -Now we are free.mp3 */; };
+		EB94B7901F6C15990013B016 /* Banda Sonora - El Senor de los Anillos.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7661F6C15990013B016 /* Banda Sonora - El Senor de los Anillos.mp3 */; };
+		EB94B7911F6C15990013B016 /* Bebo Valdes & Diego El Cigala.- Lagrimas Negras.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7671F6C15990013B016 /* Bebo Valdes & Diego El Cigala.- Lagrimas Negras.mp3 */; };
+		EB94B7921F6C15990013B016 /* Beethoven - Moonlight Sonata (FULL).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7681F6C15990013B016 /* Beethoven - Moonlight Sonata (FULL).mp3 */; };
+		EB94B7931F6C15990013B016 /* Chris Brown - Look At Me Now ft. Lil Wayne, Busta Rhymes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7691F6C15990013B016 /* Chris Brown - Look At Me Now ft. Lil Wayne, Busta Rhymes.mp3 */; };
+		EB94B7941F6C15990013B016 /* despacito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B76A1F6C15990013B016 /* despacito.mp3 */; };
+		EB94B7951F6C15990013B016 /* Diego El Cigala - El Raton (Official Video).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B76B1F6C15990013B016 /* Diego El Cigala - El Raton (Official Video).mp3 */; };
+		EB94B7961F6C15990013B016 /* Dr. Dre - Still D.R.E. ft. Snoop Dogg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B76C1F6C15990013B016 /* Dr. Dre - Still D.R.E. ft. Snoop Dogg.mp3 */; };
+		EB94B7971F6C15990013B016 /* El Barrio - El Viejo Verano (Videoclip Oficial).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B76D1F6C15990013B016 /* El Barrio - El Viejo Verano (Videoclip Oficial).mp3 */; };
+		EB94B7981F6C15990013B016 /* El Barrio - Las Costuras del Alma.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B76E1F6C15990013B016 /* El Barrio - Las Costuras del Alma.mp3 */; };
+		EB94B7991F6C15990013B016 /* El Barrio - Pa Madrid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B76F1F6C15990013B016 /* El Barrio - Pa Madrid.mp3 */; };
+		EB94B79A1F6C15990013B016 /* El Barrio - Querida Enemiga (Videoclip Oficial).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7701F6C15990013B016 /* El Barrio - Querida Enemiga (Videoclip Oficial).mp3 */; };
+		EB94B79B1F6C15990013B016 /* Eminem - Rap God (Explicit).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7711F6C15990013B016 /* Eminem - Rap God (Explicit).mp3 */; };
+		EB94B79C1F6C15990013B016 /* EPIC Game of Thrones Theme (Cover) + Fan Trailer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7721F6C15990013B016 /* EPIC Game of Thrones Theme (Cover) + Fan Trailer.mp3 */; };
+		EB94B79D1F6C15990013B016 /* First Of The Year (Equinox) - Skrillex OFFICIAL.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7731F6C15990013B016 /* First Of The Year (Equinox) - Skrillex OFFICIAL.mp3 */; };
+		EB94B79E1F6C15990013B016 /* Guns N' Roses - Sweet Child O' Mine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7741F6C15990013B016 /* Guns N' Roses - Sweet Child O' Mine.mp3 */; };
+		EB94B79F1F6C15990013B016 /* Guns N' Roses - Welcome To The Jungle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7751F6C15990013B016 /* Guns N' Roses - Welcome To The Jungle.mp3 */; };
+		EB94B7A01F6C15990013B016 /* Hardwell - Spaceman (Original Mix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7761F6C15990013B016 /* Hardwell - Spaceman (Original Mix).mp3 */; };
+		EB94B7A11F6C15990013B016 /* Jose Merce - Del amanecer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7771F6C15990013B016 /* Jose Merce - Del amanecer.mp3 */; };
+		EB94B7A21F6C15990013B016 /* Jose MerceAire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7781F6C15990013B016 /* Jose MerceAire.mp3 */; };
+		EB94B7A31F6C15990013B016 /* Kanye West - Fade (Explicit).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7791F6C15990013B016 /* Kanye West - Fade (Explicit).mp3 */; };
+		EB94B7A41F6C15990013B016 /* Kanye West - Stronger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B77A1F6C15990013B016 /* Kanye West - Stronger.mp3 */; };
+		EB94B7A51F6C15990013B016 /* Mozart - Requiem.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B77B1F6C15990013B016 /* Mozart - Requiem.mp3 */; };
+		EB94B7A61F6C15990013B016 /* Ragga Bomb (Skrillex & Zomboy Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B77C1F6C15990013B016 /* Ragga Bomb (Skrillex & Zomboy Remix).mp3 */; };
+		EB94B7A71F6C15990013B016 /* Red Hot Chili Peppers - Californication Official Music Video.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B77D1F6C15990013B016 /* Red Hot Chili Peppers - Californication Official Music Video.mp3 */; };
+		EB94B7A81F6C15990013B016 /* Red Hot Chili Peppers - Can't Stop Official Music Video.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B77E1F6C15990013B016 /* Red Hot Chili Peppers - Can't Stop Official Music Video.mp3 */; };
+		EB94B7A91F6C15990013B016 /* Red Hot Chili Peppers - Otherside Official Music Video.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B77F1F6C15990013B016 /* Red Hot Chili Peppers - Otherside Official Music Video.mp3 */; };
+		EB94B7AA1F6C15990013B016 /* Red Hot Chili Peppers - Under The Bridge Official Music Video.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7801F6C15990013B016 /* Red Hot Chili Peppers - Under The Bridge Official Music Video.mp3 */; };
+		EB94B7AB1F6C15990013B016 /* Rick Ross - Santorini Greece.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7811F6C15990013B016 /* Rick Ross - Santorini Greece.mp3 */; };
+		EB94B7AC1F6C15990013B016 /* Rosario Flores con el Cigala - Te quiero, te quiero.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7821F6C15990013B016 /* Rosario Flores con el Cigala - Te quiero, te quiero.mp3 */; };
+		EB94B7AD1F6C15990013B016 /* SKRILLEX - Bangarang feat. Sirah Official Music Video.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7831F6C15990013B016 /* SKRILLEX - Bangarang feat. Sirah Official Music Video.mp3 */; };
+		EB94B7AE1F6C15990013B016 /* SKRILLEX - Scary Monsters And Nice Sprites.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7841F6C15990013B016 /* SKRILLEX - Scary Monsters And Nice Sprites.mp3 */; };
+		EB94B7AF1F6C15990013B016 /* Skrillex & Damian Jr. Gong Marley - Make It Bun Dem OFFICIAL VIDEO.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7851F6C15990013B016 /* Skrillex & Damian Jr. Gong Marley - Make It Bun Dem OFFICIAL VIDEO.mp3 */; };
+		EB94B7B01F6C15990013B016 /* Skrillex & Diplo - Mind feat. Kai (Official Video).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7861F6C15990013B016 /* Skrillex & Diplo - Mind feat. Kai (Official Video).mp3 */; };
+		EB94B7B11F6C15990013B016 /* Purple Lamborghini Official Video.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7871F6C15990013B016 /* Purple Lamborghini Official Video.mp3 */; };
+		EB94B7B21F6C15990013B016 /* SNOOP DOGG - BADBADNOTGOOD - Lavender (Nightfall Remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7881F6C15990013B016 /* SNOOP DOGG - BADBADNOTGOOD - Lavender (Nightfall Remix).mp3 */; };
+		EB94B7B31F6C15990013B016 /* Snoop Dogg - Gin And Juice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B7891F6C15990013B016 /* Snoop Dogg - Gin And Juice.mp3 */; };
+		EB94B7B41F6C15990013B016 /* Snoop Dogg - Smoke Weed Everyday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B78A1F6C15990013B016 /* Snoop Dogg - Smoke Weed Everyday.mp3 */; };
+		EB94B7B51F6C15990013B016 /* Star Wars- The Imperial March (Darth Vader's Theme).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B78B1F6C15990013B016 /* Star Wars- The Imperial March (Darth Vader's Theme).mp3 */; };
+		EB94B7B61F6C15990013B016 /* The Game & Skrillex - El Chapo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B78C1F6C15990013B016 /* The Game & Skrillex - El Chapo.mp3 */; };
+		EB94B7B71F6C15990013B016 /* Where Are u Now (with Justin Bieber).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB94B78D1F6C15990013B016 /* Where Are u Now (with Justin Bieber).mp3 */; };
+		EB94B7B91F6C16FB0013B016 /* ArtistTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B7B81F6C16FB0013B016 /* ArtistTools.swift */; };
+		EB94B7BB1F6C171D0013B016 /* AlbumTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B7BA1F6C171D0013B016 /* AlbumTools.swift */; };
+		EB94B7BD1F6C17990013B016 /* ListTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B7BC1F6C17990013B016 /* ListTools.swift */; };
+		EB94B7C11F6C182D0013B016 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B7BE1F6C182D0013B016 /* TopViewController.swift */; };
+		EB94B7C21F6C182D0013B016 /* TopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B7BF1F6C182D0013B016 /* TopTableViewCell.swift */; };
+		EB94B7C31F6C182D0013B016 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB94B7C01F6C182D0013B016 /* ListCollectionViewCell.swift */; };
+		EBF310FD1F6A53CE000D8420 /* PinUserAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF310FC1F6A53CE000D8420 /* PinUserAnnotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB32B80D1F4C1AF500F7BC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB32B7F01F4C1AF400F7BC37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB32B7F71F4C1AF400F7BC37;
+			remoteInfo = MediaPlayer;
+		};
+		EB32B8181F4C1AF500F7BC37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB32B7F01F4C1AF400F7BC37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB32B7F71F4C1AF400F7BC37;
+			remoteInfo = MediaPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AA2C81030260094059E5C07 /* Pods-MediaPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MediaPlayer/Pods-MediaPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		B3B8A9A236EA8E8BF8BE499C /* Pods-MediaPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MediaPlayer/Pods-MediaPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		E5C6380E6593DE2E645FC32A /* Pods_MediaPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MediaPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2B5FA01F50108E003E687F /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		EB2B5FA71F517310003E687F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EB2B5FA91F5173D0003E687F /* PinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAnnotation.swift; sourceTree = "<group>"; };
+		EB32B7F81F4C1AF500F7BC37 /* MediaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB32B7FB1F4C1AF500F7BC37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB32B8001F4C1AF500F7BC37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB32B8021F4C1AF500F7BC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB32B8071F4C1AF500F7BC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB32B80C1F4C1AF500F7BC37 /* MediaPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB32B8101F4C1AF500F7BC37 /* MediaPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerTests.swift; sourceTree = "<group>"; };
+		EB32B8121F4C1AF500F7BC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB32B8171F4C1AF500F7BC37 /* MediaPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediaPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB32B81B1F4C1AF500F7BC37 /* MediaPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayerUITests.swift; sourceTree = "<group>"; };
+		EB32B81D1F4C1AF500F7BC37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB32B8311F4C463900F7BC37 /* LoginTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTools.swift; sourceTree = "<group>"; };
+		EB32B8331F4C465000F7BC37 /* FavoritesTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesTools.swift; sourceTree = "<group>"; };
+		EB32B8391F4C467C00F7BC37 /* PlayerTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTools.swift; sourceTree = "<group>"; };
+		EB32B83D1F4C469D00F7BC37 /* TopTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTools.swift; sourceTree = "<group>"; };
+		EB32B84D1F4C4ACF00F7BC37 /* SettingGeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingGeneralViewController.swift; sourceTree = "<group>"; };
+		EB32B84F1F4C4AE000F7BC37 /* EditProfilelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfilelViewController.swift; sourceTree = "<group>"; };
+		EB32B8511F4C4B8400F7BC37 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		EB32B8531F4C4B9400F7BC37 /* ArtistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistDetailViewController.swift; sourceTree = "<group>"; };
+		EB32B8551F4C4BA200F7BC37 /* MapDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapDetailViewController.swift; sourceTree = "<group>"; };
+		EB32B8581F4C4C0600F7BC37 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EB32B85A1F4C4C1800F7BC37 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EB32B85C1F4C4C2400F7BC37 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		EB32B85E1F4C7D3500F7BC37 /* AlbumListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListTableViewCell.swift; sourceTree = "<group>"; };
+		EB4D9CA21F6EEE65008C7D7C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB5196411F6ACEB800CF43B1 /* LiveListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveListViewController.swift; sourceTree = "<group>"; };
+		EB5196431F6BC23B00CF43B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EB654AC71F696A9200E0658C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EB654AC81F696AB300E0658C /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		EB654AC91F696AB300E0658C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EB654ACA1F696AB400E0658C /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EB654ACB1F696AB600E0658C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EB940A371F6C1A2900F212B1 /* ListsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListsDetailViewController.swift; sourceTree = "<group>"; };
+		EB940A381F6C1A2900F212B1 /* ListsDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListsDetailTableViewCell.swift; sourceTree = "<group>"; };
+		EB940A3C1F6C1A5000F212B1 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EB940A3D1F6C1A5000F212B1 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		EB940A401F6C1D7000F212B1 /* UserTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTools.swift; sourceTree = "<group>"; };
+		EB94B6481F6BE9FE0013B016 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		EB94B6491F6BE9FE0013B016 /* userDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userDetailViewController.swift; sourceTree = "<group>"; };
+		EB94B64A1F6BE9FE0013B016 /* userDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userDetailTableViewCell.swift; sourceTree = "<group>"; };
+		EB94B64E1F6BEA210013B016 /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		EB94B64F1F6BEA210013B016 /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		EB94B7621F6C15760013B016 /* 50 cent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "50 cent.mp3"; sourceTree = "<group>"; };
+		EB94B7641F6C15990013B016 /* AxwellIngrosso - More Than You Know.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "AxwellIngrosso - More Than You Know.mp3"; sourceTree = "<group>"; };
+		EB94B7651F6C15990013B016 /* B S O Gladiador -Now we are free.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "B S O Gladiador -Now we are free.mp3"; sourceTree = "<group>"; };
+		EB94B7661F6C15990013B016 /* Banda Sonora - El Senor de los Anillos.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Banda Sonora - El Senor de los Anillos.mp3"; sourceTree = "<group>"; };
+		EB94B7671F6C15990013B016 /* Bebo Valdes & Diego El Cigala.- Lagrimas Negras.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Bebo Valdes & Diego El Cigala.- Lagrimas Negras.mp3"; sourceTree = "<group>"; };
+		EB94B7681F6C15990013B016 /* Beethoven - Moonlight Sonata (FULL).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beethoven - Moonlight Sonata (FULL).mp3"; sourceTree = "<group>"; };
+		EB94B7691F6C15990013B016 /* Chris Brown - Look At Me Now ft. Lil Wayne, Busta Rhymes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Chris Brown - Look At Me Now ft. Lil Wayne, Busta Rhymes.mp3"; sourceTree = "<group>"; };
+		EB94B76A1F6C15990013B016 /* despacito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = despacito.mp3; sourceTree = "<group>"; };
+		EB94B76B1F6C15990013B016 /* Diego El Cigala - El Raton (Official Video).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Diego El Cigala - El Raton (Official Video).mp3"; sourceTree = "<group>"; };
+		EB94B76C1F6C15990013B016 /* Dr. Dre - Still D.R.E. ft. Snoop Dogg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dr. Dre - Still D.R.E. ft. Snoop Dogg.mp3"; sourceTree = "<group>"; };
+		EB94B76D1F6C15990013B016 /* El Barrio - El Viejo Verano (Videoclip Oficial).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "El Barrio - El Viejo Verano (Videoclip Oficial).mp3"; sourceTree = "<group>"; };
+		EB94B76E1F6C15990013B016 /* El Barrio - Las Costuras del Alma.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "El Barrio - Las Costuras del Alma.mp3"; sourceTree = "<group>"; };
+		EB94B76F1F6C15990013B016 /* El Barrio - Pa Madrid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "El Barrio - Pa Madrid.mp3"; sourceTree = "<group>"; };
+		EB94B7701F6C15990013B016 /* El Barrio - Querida Enemiga (Videoclip Oficial).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "El Barrio - Querida Enemiga (Videoclip Oficial).mp3"; sourceTree = "<group>"; };
+		EB94B7711F6C15990013B016 /* Eminem - Rap God (Explicit).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Eminem - Rap God (Explicit).mp3"; sourceTree = "<group>"; };
+		EB94B7721F6C15990013B016 /* EPIC Game of Thrones Theme (Cover) + Fan Trailer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "EPIC Game of Thrones Theme (Cover) + Fan Trailer.mp3"; sourceTree = "<group>"; };
+		EB94B7731F6C15990013B016 /* First Of The Year (Equinox) - Skrillex OFFICIAL.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "First Of The Year (Equinox) - Skrillex OFFICIAL.mp3"; sourceTree = "<group>"; };
+		EB94B7741F6C15990013B016 /* Guns N' Roses - Sweet Child O' Mine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Guns N' Roses - Sweet Child O' Mine.mp3"; sourceTree = "<group>"; };
+		EB94B7751F6C15990013B016 /* Guns N' Roses - Welcome To The Jungle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Guns N' Roses - Welcome To The Jungle.mp3"; sourceTree = "<group>"; };
+		EB94B7761F6C15990013B016 /* Hardwell - Spaceman (Original Mix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Hardwell - Spaceman (Original Mix).mp3"; sourceTree = "<group>"; };
+		EB94B7771F6C15990013B016 /* Jose Merce - Del amanecer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jose Merce - Del amanecer.mp3"; sourceTree = "<group>"; };
+		EB94B7781F6C15990013B016 /* Jose MerceAire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jose MerceAire.mp3"; sourceTree = "<group>"; };
+		EB94B7791F6C15990013B016 /* Kanye West - Fade (Explicit).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kanye West - Fade (Explicit).mp3"; sourceTree = "<group>"; };
+		EB94B77A1F6C15990013B016 /* Kanye West - Stronger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kanye West - Stronger.mp3"; sourceTree = "<group>"; };
+		EB94B77B1F6C15990013B016 /* Mozart - Requiem.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mozart - Requiem.mp3"; sourceTree = "<group>"; };
+		EB94B77C1F6C15990013B016 /* Ragga Bomb (Skrillex & Zomboy Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ragga Bomb (Skrillex & Zomboy Remix).mp3"; sourceTree = "<group>"; };
+		EB94B77D1F6C15990013B016 /* Red Hot Chili Peppers - Californication Official Music Video.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Red Hot Chili Peppers - Californication Official Music Video.mp3"; sourceTree = "<group>"; };
+		EB94B77E1F6C15990013B016 /* Red Hot Chili Peppers - Can't Stop Official Music Video.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Red Hot Chili Peppers - Can't Stop Official Music Video.mp3"; sourceTree = "<group>"; };
+		EB94B77F1F6C15990013B016 /* Red Hot Chili Peppers - Otherside Official Music Video.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Red Hot Chili Peppers - Otherside Official Music Video.mp3"; sourceTree = "<group>"; };
+		EB94B7801F6C15990013B016 /* Red Hot Chili Peppers - Under The Bridge Official Music Video.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Red Hot Chili Peppers - Under The Bridge Official Music Video.mp3"; sourceTree = "<group>"; };
+		EB94B7811F6C15990013B016 /* Rick Ross - Santorini Greece.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rick Ross - Santorini Greece.mp3"; sourceTree = "<group>"; };
+		EB94B7821F6C15990013B016 /* Rosario Flores con el Cigala - Te quiero, te quiero.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rosario Flores con el Cigala - Te quiero, te quiero.mp3"; sourceTree = "<group>"; };
+		EB94B7831F6C15990013B016 /* SKRILLEX - Bangarang feat. Sirah Official Music Video.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SKRILLEX - Bangarang feat. Sirah Official Music Video.mp3"; sourceTree = "<group>"; };
+		EB94B7841F6C15990013B016 /* SKRILLEX - Scary Monsters And Nice Sprites.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SKRILLEX - Scary Monsters And Nice Sprites.mp3"; sourceTree = "<group>"; };
+		EB94B7851F6C15990013B016 /* Skrillex & Damian Jr. Gong Marley - Make It Bun Dem OFFICIAL VIDEO.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Skrillex & Damian Jr. Gong Marley - Make It Bun Dem OFFICIAL VIDEO.mp3"; sourceTree = "<group>"; };
+		EB94B7861F6C15990013B016 /* Skrillex & Diplo - Mind feat. Kai (Official Video).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Skrillex & Diplo - Mind feat. Kai (Official Video).mp3"; sourceTree = "<group>"; };
+		EB94B7871F6C15990013B016 /* Purple Lamborghini Official Video.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Purple Lamborghini Official Video.mp3"; sourceTree = "<group>"; };
+		EB94B7881F6C15990013B016 /* SNOOP DOGG - BADBADNOTGOOD - Lavender (Nightfall Remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "SNOOP DOGG - BADBADNOTGOOD - Lavender (Nightfall Remix).mp3"; sourceTree = "<group>"; };
+		EB94B7891F6C15990013B016 /* Snoop Dogg - Gin And Juice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Snoop Dogg - Gin And Juice.mp3"; sourceTree = "<group>"; };
+		EB94B78A1F6C15990013B016 /* Snoop Dogg - Smoke Weed Everyday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Snoop Dogg - Smoke Weed Everyday.mp3"; sourceTree = "<group>"; };
+		EB94B78B1F6C15990013B016 /* Star Wars- The Imperial March (Darth Vader's Theme).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Star Wars- The Imperial March (Darth Vader's Theme).mp3"; sourceTree = "<group>"; };
+		EB94B78C1F6C15990013B016 /* The Game & Skrillex - El Chapo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Game & Skrillex - El Chapo.mp3"; sourceTree = "<group>"; };
+		EB94B78D1F6C15990013B016 /* Where Are u Now (with Justin Bieber).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Where Are u Now (with Justin Bieber).mp3"; sourceTree = "<group>"; };
+		EB94B7B81F6C16FB0013B016 /* ArtistTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistTools.swift; sourceTree = "<group>"; };
+		EB94B7BA1F6C171D0013B016 /* AlbumTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTools.swift; sourceTree = "<group>"; };
+		EB94B7BC1F6C17990013B016 /* ListTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTools.swift; sourceTree = "<group>"; };
+		EB94B7BE1F6C182D0013B016 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		EB94B7BF1F6C182D0013B016 /* TopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTableViewCell.swift; sourceTree = "<group>"; };
+		EB94B7C01F6C182D0013B016 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		EBEBA2201F682D0F005E4199 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		EBEBA2221F682D19005E4199 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		EBEBA2241F682D29005E4199 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		EBEBA2261F682D39005E4199 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		EBF310FC1F6A53CE000D8420 /* PinUserAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinUserAnnotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB32B7F51F4C1AF400F7BC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2B5FA81F517310003E687F /* MapKit.framework in Frameworks */,
+				9C883BE1AA781F8DE12A06FC /* Pods_MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB32B8091F4C1AF500F7BC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB32B8141F4C1AF500F7BC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D80E9F7D8DD0D1C70A0885CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AA2C81030260094059E5C07 /* Pods-MediaPlayer.debug.xcconfig */,
+				B3B8A9A236EA8E8BF8BE499C /* Pods-MediaPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB2B5FA21F51730D003E687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB2B5FA71F517310003E687F /* MapKit.framework */,
+				E5C6380E6593DE2E645FC32A /* Pods_MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB32B7EF1F4C1AF400F7BC37 = {
+			isa = PBXGroup;
+			children = (
+				EB32B7FA1F4C1AF500F7BC37 /* MediaPlayer */,
+				EB32B80F1F4C1AF500F7BC37 /* MediaPlayerTests */,
+				EB32B81A1F4C1AF500F7BC37 /* MediaPlayerUITests */,
+				EB32B7F91F4C1AF500F7BC37 /* Products */,
+				EB2B5FA21F51730D003E687F /* Frameworks */,
+				D80E9F7D8DD0D1C70A0885CB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EB32B7F91F4C1AF500F7BC37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB32B7F81F4C1AF500F7BC37 /* MediaPlayer.app */,
+				EB32B80C1F4C1AF500F7BC37 /* MediaPlayerTests.xctest */,
+				EB32B8171F4C1AF500F7BC37 /* MediaPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB32B7FA1F4C1AF500F7BC37 /* MediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EB94B7611F6C155D0013B016 /* MP3 */,
+				EB32B8301F4C462300F7BC37 /* Tools */,
+				EB32B82F1F4C461A00F7BC37 /* Favorites */,
+				EB32B82E1F4C461400F7BC37 /* Friends */,
+				EB32B82D1F4C460400F7BC37 /* Setting */,
+				EB32B82C1F4C45F300F7BC37 /* Player */,
+				EB32B82A1F4C45DC00F7BC37 /* Top */,
+				EB32B8291F4C45B100F7BC37 /* Login */,
+				EB32B7FB1F4C1AF500F7BC37 /* AppDelegate.swift */,
+				EB32B7FF1F4C1AF500F7BC37 /* Main.storyboard */,
+				EB32B8021F4C1AF500F7BC37 /* Assets.xcassets */,
+				EB4D9CA21F6EEE65008C7D7C /* LaunchScreen.storyboard */,
+				EB32B8071F4C1AF500F7BC37 /* Info.plist */,
+				EB654ABA1F6969C700E0658C /* Localizable.strings */,
+			);
+			path = MediaPlayer;
+			sourceTree = "<group>";
+		};
+		EB32B80F1F4C1AF500F7BC37 /* MediaPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB32B8101F4C1AF500F7BC37 /* MediaPlayerTests.swift */,
+				EB32B8121F4C1AF500F7BC37 /* Info.plist */,
+			);
+			path = MediaPlayerTests;
+			sourceTree = "<group>";
+		};
+		EB32B81A1F4C1AF500F7BC37 /* MediaPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB32B81B1F4C1AF500F7BC37 /* MediaPlayerUITests.swift */,
+				EB32B81D1F4C1AF500F7BC37 /* Info.plist */,
+			);
+			path = MediaPlayerUITests;
+			sourceTree = "<group>";
+		};
+		EB32B8291F4C45B100F7BC37 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EB32B8581F4C4C0600F7BC37 /* LoginViewController.swift */,
+				EB32B85A1F4C4C1800F7BC37 /* RegisterViewController.swift */,
+				EB32B85C1F4C4C2400F7BC37 /* ForgotPasswordViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		EB32B82A1F4C45DC00F7BC37 /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				EB940A3B1F6C1A4400F212B1 /* Search */,
+				EB94B7C41F6C18E40013B016 /* List Detail */,
+				EB94B7BE1F6C182D0013B016 /* TopViewController.swift */,
+				EB94B7BF1F6C182D0013B016 /* TopTableViewCell.swift */,
+				EB94B7C01F6C182D0013B016 /* ListCollectionViewCell.swift */,
+			);
+			name = Top;
+			sourceTree = "<group>";
+		};
+		EB32B82C1F4C45F300F7BC37 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				EB32B8511F4C4B8400F7BC37 /* PlayerViewController.swift */,
+				EB32B8531F4C4B9400F7BC37 /* ArtistDetailViewController.swift */,
+				EB32B8551F4C4BA200F7BC37 /* MapDetailViewController.swift */,
+				EB32B85E1F4C7D3500F7BC37 /* AlbumListTableViewCell.swift */,
+				EB5196411F6ACEB800CF43B1 /* LiveListViewController.swift */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		EB32B82D1F4C460400F7BC37 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				EB32B84D1F4C4ACF00F7BC37 /* SettingGeneralViewController.swift */,
+				EB32B84F1F4C4AE000F7BC37 /* EditProfilelViewController.swift */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		EB32B82E1F4C461400F7BC37 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				EB94B6481F6BE9FE0013B016 /* UsersViewController.swift */,
+				EB94B6491F6BE9FE0013B016 /* userDetailViewController.swift */,
+				EB94B64A1F6BE9FE0013B016 /* userDetailTableViewCell.swift */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		EB32B82F1F4C461A00F7BC37 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				EB94B64E1F6BEA210013B016 /* FavoriteViewController.swift */,
+				EB94B64F1F6BEA210013B016 /* FavoriteTableViewCell.swift */,
+			);
+			name = Favorites;
+			sourceTree = "<group>";
+		};
+		EB32B8301F4C462300F7BC37 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				EB2B5FA91F5173D0003E687F /* PinAnnotation.swift */,
+				EB32B8311F4C463900F7BC37 /* LoginTools.swift */,
+				EB32B8331F4C465000F7BC37 /* FavoritesTools.swift */,
+				EB32B8391F4C467C00F7BC37 /* PlayerTools.swift */,
+				EB32B83D1F4C469D00F7BC37 /* TopTools.swift */,
+				EB2B5FA01F50108E003E687F /* Tools.swift */,
+				EBF310FC1F6A53CE000D8420 /* PinUserAnnotation.swift */,
+				EB94B7B81F6C16FB0013B016 /* ArtistTools.swift */,
+				EB94B7BA1F6C171D0013B016 /* AlbumTools.swift */,
+				EB94B7BC1F6C17990013B016 /* ListTools.swift */,
+				EB940A401F6C1D7000F212B1 /* UserTools.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		EB940A3B1F6C1A4400F212B1 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EB940A3C1F6C1A5000F212B1 /* SearchViewController.swift */,
+				EB940A3D1F6C1A5000F212B1 /* SearchTableViewCell.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		EB94B7611F6C155D0013B016 /* MP3 */ = {
+			isa = PBXGroup;
+			children = (
+				EB94B7621F6C15760013B016 /* 50 cent.mp3 */,
+				EB94B7641F6C15990013B016 /* AxwellIngrosso - More Than You Know.mp3 */,
+				EB94B7651F6C15990013B016 /* B S O Gladiador -Now we are free.mp3 */,
+				EB94B7661F6C15990013B016 /* Banda Sonora - El Senor de los Anillos.mp3 */,
+				EB94B7671F6C15990013B016 /* Bebo Valdes & Diego El Cigala.- Lagrimas Negras.mp3 */,
+				EB94B7681F6C15990013B016 /* Beethoven - Moonlight Sonata (FULL).mp3 */,
+				EB94B7691F6C15990013B016 /* Chris Brown - Look At Me Now ft. Lil Wayne, Busta Rhymes.mp3 */,
+				EB94B76A1F6C15990013B016 /* despacito.mp3 */,
+				EB94B76B1F6C15990013B016 /* Diego El Cigala - El Raton (Official Video).mp3 */,
+				EB94B76C1F6C15990013B016 /* Dr. Dre - Still D.R.E. ft. Snoop Dogg.mp3 */,
+				EB94B76D1F6C15990013B016 /* El Barrio - El Viejo Verano (Videoclip Oficial).mp3 */,
+				EB94B76E1F6C15990013B016 /* El Barrio - Las Costuras del Alma.mp3 */,
+				EB94B76F1F6C15990013B016 /* El Barrio - Pa Madrid.mp3 */,
+				EB94B7701F6C15990013B016 /* El Barrio - Querida Enemiga (Videoclip Oficial).mp3 */,
+				EB94B7711F6C15990013B016 /* Eminem - Rap God (Explicit).mp3 */,
+				EB94B7721F6C15990013B016 /* EPIC Game of Thrones Theme (Cover) + Fan Trailer.mp3 */,
+				EB94B7731F6C15990013B016 /* First Of The Year (Equinox) - Skrillex OFFICIAL.mp3 */,
+				EB94B7741F6C15990013B016 /* Guns N' Roses - Sweet Child O' Mine.mp3 */,
+				EB94B7751F6C15990013B016 /* Guns N' Roses - Welcome To The Jungle.mp3 */,
+				EB94B7761F6C15990013B016 /* Hardwell - Spaceman (Original Mix).mp3 */,
+				EB94B7771F6C15990013B016 /* Jose Merce - Del amanecer.mp3 */,
+				EB94B7781F6C15990013B016 /* Jose MerceAire.mp3 */,
+				EB94B7791F6C15990013B016 /* Kanye West - Fade (Explicit).mp3 */,
+				EB94B77A1F6C15990013B016 /* Kanye West - Stronger.mp3 */,
+				EB94B77B1F6C15990013B016 /* Mozart - Requiem.mp3 */,
+				EB94B77C1F6C15990013B016 /* Ragga Bomb (Skrillex & Zomboy Remix).mp3 */,
+				EB94B77D1F6C15990013B016 /* Red Hot Chili Peppers - Californication Official Music Video.mp3 */,
+				EB94B77E1F6C15990013B016 /* Red Hot Chili Peppers - Can't Stop Official Music Video.mp3 */,
+				EB94B77F1F6C15990013B016 /* Red Hot Chili Peppers - Otherside Official Music Video.mp3 */,
+				EB94B7801F6C15990013B016 /* Red Hot Chili Peppers - Under The Bridge Official Music Video.mp3 */,
+				EB94B7811F6C15990013B016 /* Rick Ross - Santorini Greece.mp3 */,
+				EB94B7821F6C15990013B016 /* Rosario Flores con el Cigala - Te quiero, te quiero.mp3 */,
+				EB94B7831F6C15990013B016 /* SKRILLEX - Bangarang feat. Sirah Official Music Video.mp3 */,
+				EB94B7841F6C15990013B016 /* SKRILLEX - Scary Monsters And Nice Sprites.mp3 */,
+				EB94B7851F6C15990013B016 /* Skrillex & Damian Jr. Gong Marley - Make It Bun Dem OFFICIAL VIDEO.mp3 */,
+				EB94B7861F6C15990013B016 /* Skrillex & Diplo - Mind feat. Kai (Official Video).mp3 */,
+				EB94B7871F6C15990013B016 /* Purple Lamborghini Official Video.mp3 */,
+				EB94B7881F6C15990013B016 /* SNOOP DOGG - BADBADNOTGOOD - Lavender (Nightfall Remix).mp3 */,
+				EB94B7891F6C15990013B016 /* Snoop Dogg - Gin And Juice.mp3 */,
+				EB94B78A1F6C15990013B016 /* Snoop Dogg - Smoke Weed Everyday.mp3 */,
+				EB94B78B1F6C15990013B016 /* Star Wars- The Imperial March (Darth Vader's Theme).mp3 */,
+				EB94B78C1F6C15990013B016 /* The Game & Skrillex - El Chapo.mp3 */,
+				EB94B78D1F6C15990013B016 /* Where Are u Now (with Justin Bieber).mp3 */,
+			);
+			name = MP3;
+			sourceTree = "<group>";
+		};
+		EB94B7C41F6C18E40013B016 /* List Detail */ = {
+			isa = PBXGroup;
+			children = (
+				EB940A371F6C1A2900F212B1 /* ListsDetailViewController.swift */,
+				EB940A381F6C1A2900F212B1 /* ListsDetailTableViewCell.swift */,
+			);
+			name = "List Detail";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB32B7F71F4C1AF400F7BC37 /* MediaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB32B8201F4C1AF500F7BC37 /* Build configuration list for PBXNativeTarget "MediaPlayer" */;
+			buildPhases = (
+				3090C33272CBF0FD349C4A06 /* [CP] Check Pods Manifest.lock */,
+				EB32B7F41F4C1AF400F7BC37 /* Sources */,
+				EB32B7F51F4C1AF400F7BC37 /* Frameworks */,
+				EB32B7F61F4C1AF400F7BC37 /* Resources */,
+				41178EE12F3D228515A30B96 /* [CP] Embed Pods Frameworks */,
+				BC2E4B5FF795D177C5A2DD23 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaPlayer;
+			productName = MediaPlayer;
+			productReference = EB32B7F81F4C1AF500F7BC37 /* MediaPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB32B80B1F4C1AF500F7BC37 /* MediaPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB32B8231F4C1AF500F7BC37 /* Build configuration list for PBXNativeTarget "MediaPlayerTests" */;
+			buildPhases = (
+				EB32B8081F4C1AF500F7BC37 /* Sources */,
+				EB32B8091F4C1AF500F7BC37 /* Frameworks */,
+				EB32B80A1F4C1AF500F7BC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB32B80E1F4C1AF500F7BC37 /* PBXTargetDependency */,
+			);
+			name = MediaPlayerTests;
+			productName = MediaPlayerTests;
+			productReference = EB32B80C1F4C1AF500F7BC37 /* MediaPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB32B8161F4C1AF500F7BC37 /* MediaPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB32B8261F4C1AF500F7BC37 /* Build configuration list for PBXNativeTarget "MediaPlayerUITests" */;
+			buildPhases = (
+				EB32B8131F4C1AF500F7BC37 /* Sources */,
+				EB32B8141F4C1AF500F7BC37 /* Frameworks */,
+				EB32B8151F4C1AF500F7BC37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB32B8191F4C1AF500F7BC37 /* PBXTargetDependency */,
+			);
+			name = MediaPlayerUITests;
+			productName = MediaPlayerUITests;
+			productReference = EB32B8171F4C1AF500F7BC37 /* MediaPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB32B7F01F4C1AF400F7BC37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.company;
+				TargetAttributes = {
+					EB32B7F71F4C1AF400F7BC37 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					EB32B80B1F4C1AF500F7BC37 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB32B7F71F4C1AF400F7BC37;
+					};
+					EB32B8161F4C1AF500F7BC37 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EB32B7F71F4C1AF400F7BC37;
+					};
+				};
+			};
+			buildConfigurationList = EB32B7F31F4C1AF400F7BC37 /* Build configuration list for PBXProject "MediaPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				"pt-BR",
+				es,
+				it,
+			);
+			mainGroup = EB32B7EF1F4C1AF400F7BC37;
+			productRefGroup = EB32B7F91F4C1AF500F7BC37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB32B7F71F4C1AF400F7BC37 /* MediaPlayer */,
+				EB32B80B1F4C1AF500F7BC37 /* MediaPlayerTests */,
+				EB32B8161F4C1AF500F7BC37 /* MediaPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB32B7F61F4C1AF400F7BC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB654AB81F6969C700E0658C /* Localizable.strings in Resources */,
+				EB94B7901F6C15990013B016 /* Banda Sonora - El Senor de los Anillos.mp3 in Resources */,
+				EB94B7A41F6C15990013B016 /* Kanye West - Stronger.mp3 in Resources */,
+				EB94B7B41F6C15990013B016 /* Snoop Dogg - Smoke Weed Everyday.mp3 in Resources */,
+				EB94B7A61F6C15990013B016 /* Ragga Bomb (Skrillex & Zomboy Remix).mp3 in Resources */,
+				EB94B7941F6C15990013B016 /* despacito.mp3 in Resources */,
+				EB94B7981F6C15990013B016 /* El Barrio - Las Costuras del Alma.mp3 in Resources */,
+				EB94B7A31F6C15990013B016 /* Kanye West - Fade (Explicit).mp3 in Resources */,
+				EB4D9CA31F6EEE65008C7D7C /* LaunchScreen.storyboard in Resources */,
+				EB94B7A11F6C15990013B016 /* Jose Merce - Del amanecer.mp3 in Resources */,
+				EB94B7991F6C15990013B016 /* El Barrio - Pa Madrid.mp3 in Resources */,
+				EB94B7931F6C15990013B016 /* Chris Brown - Look At Me Now ft. Lil Wayne, Busta Rhymes.mp3 in Resources */,
+				EB94B7951F6C15990013B016 /* Diego El Cigala - El Raton (Official Video).mp3 in Resources */,
+				EB94B7AB1F6C15990013B016 /* Rick Ross - Santorini Greece.mp3 in Resources */,
+				EB94B7A01F6C15990013B016 /* Hardwell - Spaceman (Original Mix).mp3 in Resources */,
+				EB94B7AC1F6C15990013B016 /* Rosario Flores con el Cigala - Te quiero, te quiero.mp3 in Resources */,
+				EB94B79A1F6C15990013B016 /* El Barrio - Querida Enemiga (Videoclip Oficial).mp3 in Resources */,
+				EB94B79D1F6C15990013B016 /* First Of The Year (Equinox) - Skrillex OFFICIAL.mp3 in Resources */,
+				EB94B7B11F6C15990013B016 /* Purple Lamborghini Official Video.mp3 in Resources */,
+				EB94B7961F6C15990013B016 /* Dr. Dre - Still D.R.E. ft. Snoop Dogg.mp3 in Resources */,
+				EB94B7AE1F6C15990013B016 /* SKRILLEX - Scary Monsters And Nice Sprites.mp3 in Resources */,
+				EB94B79E1F6C15990013B016 /* Guns N' Roses - Sweet Child O' Mine.mp3 in Resources */,
+				EB32B8031F4C1AF500F7BC37 /* Assets.xcassets in Resources */,
+				EB94B7B71F6C15990013B016 /* Where Are u Now (with Justin Bieber).mp3 in Resources */,
+				EB94B7971F6C15990013B016 /* El Barrio - El Viejo Verano (Videoclip Oficial).mp3 in Resources */,
+				EB94B7631F6C15760013B016 /* 50 cent.mp3 in Resources */,
+				EB94B7A51F6C15990013B016 /* Mozart - Requiem.mp3 in Resources */,
+				EB94B7B51F6C15990013B016 /* Star Wars- The Imperial March (Darth Vader's Theme).mp3 in Resources */,
+				EB94B7A71F6C15990013B016 /* Red Hot Chili Peppers - Californication Official Music Video.mp3 in Resources */,
+				EB94B7A91F6C15990013B016 /* Red Hot Chili Peppers - Otherside Official Music Video.mp3 in Resources */,
+				EB94B7B31F6C15990013B016 /* Snoop Dogg - Gin And Juice.mp3 in Resources */,
+				EB94B7AD1F6C15990013B016 /* SKRILLEX - Bangarang feat. Sirah Official Music Video.mp3 in Resources */,
+				EB94B7921F6C15990013B016 /* Beethoven - Moonlight Sonata (FULL).mp3 in Resources */,
+				EB94B7B21F6C15990013B016 /* SNOOP DOGG - BADBADNOTGOOD - Lavender (Nightfall Remix).mp3 in Resources */,
+				EB94B79B1F6C15990013B016 /* Eminem - Rap God (Explicit).mp3 in Resources */,
+				EB94B7B61F6C15990013B016 /* The Game & Skrillex - El Chapo.mp3 in Resources */,
+				EB94B78F1F6C15990013B016 /* B S O Gladiador -Now we are free.mp3 in Resources */,
+				EB94B7A21F6C15990013B016 /* Jose MerceAire.mp3 in Resources */,
+				EB32B8011F4C1AF500F7BC37 /* Main.storyboard in Resources */,
+				EB94B7911F6C15990013B016 /* Bebo Valdes & Diego El Cigala.- Lagrimas Negras.mp3 in Resources */,
+				EB94B7A81F6C15990013B016 /* Red Hot Chili Peppers - Can't Stop Official Music Video.mp3 in Resources */,
+				EB94B79F1F6C15990013B016 /* Guns N' Roses - Welcome To The Jungle.mp3 in Resources */,
+				EB94B78E1F6C15990013B016 /* AxwellIngrosso - More Than You Know.mp3 in Resources */,
+				EB94B79C1F6C15990013B016 /* EPIC Game of Thrones Theme (Cover) + Fan Trailer.mp3 in Resources */,
+				EB94B7B01F6C15990013B016 /* Skrillex & Diplo - Mind feat. Kai (Official Video).mp3 in Resources */,
+				EB94B7AF1F6C15990013B016 /* Skrillex & Damian Jr. Gong Marley - Make It Bun Dem OFFICIAL VIDEO.mp3 in Resources */,
+				EB94B7AA1F6C15990013B016 /* Red Hot Chili Peppers - Under The Bridge Official Music Video.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB32B80A1F4C1AF500F7BC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB32B8151F4C1AF500F7BC37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3090C33272CBF0FD349C4A06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41178EE12F3D228515A30B96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediaPlayer/Pods-MediaPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2E4B5FF795D177C5A2DD23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediaPlayer/Pods-MediaPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB32B7F41F4C1AF400F7BC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB32B8591F4C4C0600F7BC37 /* LoginViewController.swift in Sources */,
+				EB94B64C1F6BE9FE0013B016 /* userDetailViewController.swift in Sources */,
+				EB32B85D1F4C4C2400F7BC37 /* ForgotPasswordViewController.swift in Sources */,
+				EB94B7C11F6C182D0013B016 /* TopViewController.swift in Sources */,
+				EB94B7C21F6C182D0013B016 /* TopTableViewCell.swift in Sources */,
+				EB32B8561F4C4BA200F7BC37 /* MapDetailViewController.swift in Sources */,
+				EB32B8341F4C465000F7BC37 /* FavoritesTools.swift in Sources */,
+				EB94B7B91F6C16FB0013B016 /* ArtistTools.swift in Sources */,
+				EB940A3A1F6C1A2900F212B1 /* ListsDetailTableViewCell.swift in Sources */,
+				EB32B83A1F4C467C00F7BC37 /* PlayerTools.swift in Sources */,
+				EB940A411F6C1D7000F212B1 /* UserTools.swift in Sources */,
+				EB94B7C31F6C182D0013B016 /* ListCollectionViewCell.swift in Sources */,
+				EB32B8321F4C463900F7BC37 /* LoginTools.swift in Sources */,
+				EB94B7BB1F6C171D0013B016 /* AlbumTools.swift in Sources */,
+				EB32B85F1F4C7D3500F7BC37 /* AlbumListTableViewCell.swift in Sources */,
+				EB5196421F6ACEB800CF43B1 /* LiveListViewController.swift in Sources */,
+				EB32B8541F4C4B9400F7BC37 /* ArtistDetailViewController.swift in Sources */,
+				EB32B8501F4C4AE000F7BC37 /* EditProfilelViewController.swift in Sources */,
+				EB32B83E1F4C469D00F7BC37 /* TopTools.swift in Sources */,
+				EB94B64B1F6BE9FE0013B016 /* UsersViewController.swift in Sources */,
+				EB94B6501F6BEA210013B016 /* FavoriteViewController.swift in Sources */,
+				EB94B6511F6BEA210013B016 /* FavoriteTableViewCell.swift in Sources */,
+				EB940A391F6C1A2900F212B1 /* ListsDetailViewController.swift in Sources */,
+				EB32B85B1F4C4C1800F7BC37 /* RegisterViewController.swift in Sources */,
+				EB940A3E1F6C1A5000F212B1 /* SearchViewController.swift in Sources */,
+				EB2B5FAA1F5173D0003E687F /* PinAnnotation.swift in Sources */,
+				EB94B7BD1F6C17990013B016 /* ListTools.swift in Sources */,
+				EB940A3F1F6C1A5000F212B1 /* SearchTableViewCell.swift in Sources */,
+				EB2B5FA11F50108E003E687F /* Tools.swift in Sources */,
+				EB32B7FC1F4C1AF500F7BC37 /* AppDelegate.swift in Sources */,
+				EB32B84E1F4C4ACF00F7BC37 /* SettingGeneralViewController.swift in Sources */,
+				EB94B64D1F6BE9FE0013B016 /* userDetailTableViewCell.swift in Sources */,
+				EBF310FD1F6A53CE000D8420 /* PinUserAnnotation.swift in Sources */,
+				EB32B8521F4C4B8400F7BC37 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB32B8081F4C1AF500F7BC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB32B8111F4C1AF500F7BC37 /* MediaPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB32B8131F4C1AF500F7BC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB32B81C1F4C1AF500F7BC37 /* MediaPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB32B80E1F4C1AF500F7BC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB32B7F71F4C1AF400F7BC37 /* MediaPlayer */;
+			targetProxy = EB32B80D1F4C1AF500F7BC37 /* PBXContainerItemProxy */;
+		};
+		EB32B8191F4C1AF500F7BC37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB32B7F71F4C1AF400F7BC37 /* MediaPlayer */;
+			targetProxy = EB32B8181F4C1AF500F7BC37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB32B7FF1F4C1AF500F7BC37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB32B8001F4C1AF500F7BC37 /* Base */,
+				EBEBA2201F682D0F005E4199 /* fr */,
+				EBEBA2221F682D19005E4199 /* pt-BR */,
+				EBEBA2241F682D29005E4199 /* es */,
+				EBEBA2261F682D39005E4199 /* it */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB654ABA1F6969C700E0658C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB654AC71F696A9200E0658C /* fr */,
+				EB654AC81F696AB300E0658C /* pt-BR */,
+				EB654AC91F696AB300E0658C /* es */,
+				EB654ACA1F696AB400E0658C /* it */,
+				EB654ACB1F696AB600E0658C /* Base */,
+				EB5196431F6BC23B00CF43B1 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB32B81E1F4C1AF500F7BC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB32B81F1F4C1AF500F7BC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB32B8211F4C1AF500F7BC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA2C81030260094059E5C07 /* Pods-MediaPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MediaPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.MediaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EB32B8221F4C1AF500F7BC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B8A9A236EA8E8BF8BE499C /* Pods-MediaPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MediaPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.MediaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EB32B8241F4C1AF500F7BC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MediaPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.MediaPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediaPlayer.app/MediaPlayer";
+			};
+			name = Debug;
+		};
+		EB32B8251F4C1AF500F7BC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MediaPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.MediaPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MediaPlayer.app/MediaPlayer";
+			};
+			name = Release;
+		};
+		EB32B8271F4C1AF500F7BC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MediaPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.MediaPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MediaPlayer;
+			};
+			name = Debug;
+		};
+		EB32B8281F4C1AF500F7BC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MediaPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.MediaPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MediaPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB32B7F31F4C1AF400F7BC37 /* Build configuration list for PBXProject "MediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB32B81E1F4C1AF500F7BC37 /* Debug */,
+				EB32B81F1F4C1AF500F7BC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB32B8201F4C1AF500F7BC37 /* Build configuration list for PBXNativeTarget "MediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB32B8211F4C1AF500F7BC37 /* Debug */,
+				EB32B8221F4C1AF500F7BC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB32B8231F4C1AF500F7BC37 /* Build configuration list for PBXNativeTarget "MediaPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB32B8241F4C1AF500F7BC37 /* Debug */,
+				EB32B8251F4C1AF500F7BC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB32B8261F4C1AF500F7BC37 /* Build configuration list for PBXNativeTarget "MediaPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB32B8271F4C1AF500F7BC37 /* Debug */,
+				EB32B8281F4C1AF500F7BC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB32B7F01F4C1AF400F7BC37 /* Project object */;
+}

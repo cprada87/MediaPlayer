@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  MediaPlayer
+
+  Created by pedro on 12/9/17.
+  Copyright © 2017 com.company. All rights reserved.
+*/
+"liveTitleButton"="Esto es frances";
+"albumListTitleLabel"="albumListTitleLabelFrench";
+"noSelectedLiveCell"="Concerto não selecionado";
+"noSelectedLiveCellMsg"="Não tem selecionado um concerto";
+"userNeeded" = "Usuario necesario";
+"userNeededMsg" = "Necesitamos un nombre de usuario";
+"wrongUser" = "Usuario incorrecto";
+"wrongUserMsg" = "El nombre de usuario no coincide";
+"passNeeded" = "Contraseña necesaria";
+"passNeededMsg" = "No te olvides de escribir la Contraseña";
+"wrongPass" = "Confirmar contraseña";
+"wrongPassMsg" = "Escribe la contraseña de nuevo";
+"userExists"="Usuario ya creado";
+"userExistsMsg"="El Usuario ya esta registrado";
+"usernameRegistered"="Nombre de usuario registrado";
+"usernameRegisteredMsg"="El nombre de usuario se encuentra registrado. Por favor seleccione otro";
+"rePassword"="Confirmar contraseña";
+"rePasswordMsg"="Escribe la Contraseña de nuevo";
+"passRePassDifferent"="Error de contraseñas";
+"passRePassDifferentMsg"="Una de las Contraseñas no coincide, revisalas de nuevo";
+"emailNeeded"="Email necesario";
+"emailNeededMsg"="Necesitamos un Correo Electrónico";
+"emailExists"="Email existe";
+"emailExistsMsg"="El email ya se encuentra registrado. Por favor inserte otro email";
+"checkEmail"="Revisa tu email";
+"checkEmailMsg"="Hemos enviado un email a tu correo. Revísalo";
+"wrongEmail"="Email incorrecto";
+"wrongEmailMsg"="El email introducido es incorrecto. Por favor escríbelo correctamente";
+"changePrivacyProfile"="Cambiada privacidad perfil";
+"changePrivacyProfileMsgTrue"="La privacidad del perfil ha sido activada";
+"changePrivacyProfileMsgFalse"="La privacidad del perfil ha sido desactivada";
+"changePrivacyFriend"="Cambiada privacidad amigos";
+"changePrivacyFriendMsgTrue"="La privacidad de la lista de amigos ha sido activada";
+"changePrivacyFriendMsgFalse"="La privacidad de la lista de amigos ha sido desactivada";
+"changePrivacyLocation"="Cambiada privacidad localización";
+"changePrivacyLocationMsgTrue"="La privacidad de la localización ha sido activada";
+"changePrivacyLocationMsgFalse"="La privacidad de la localización ha sido desactivada";
+"editProfile"="Editar perfil";
+"editProfileMsg"="¿Desea editar el perfil?";
+"cancel"="Cancelar";
+"about"="Sobre nosotros";
+"languageTitle"="Idiomas - Base";
+"settingGeneralAdj"="Ajustes General";
+"profileEditedMsg"="El perfil ha sido cambiado";
+"profileEdited"="Perfil Cambiado";
+"music"="Musique";
+"search"="Pour rechercher";
+"searchTextPlaceHolder"="Trouvez la chanson que vous voulez entendre";
+

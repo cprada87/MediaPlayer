@@ -1,0 +1,159 @@
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "1qb-Zk-fFe"; */
+"1qb-Zk-fFe.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Repetir Contraseña"; ObjectID = "2Gl-YX-9Oo"; */
+"2Gl-YX-9Oo.placeholder" = "Repetir Contraseña";
+
+/* Class = "UIButton"; normalTitle = "Crear Cuenta"; ObjectID = "2Oi-dp-Gsy"; */
+"2Oi-dp-Gsy.normalTitle" = "Crear Cuenta";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2h5-34-w8K"; */
+"2h5-34-w8K.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "3Bc-Vc-SgZ"; */
+"3Bc-Vc-SgZ.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Ajustes general"; ObjectID = "4PM-cM-3WO"; */
+"4PM-cM-3WO.text" = "Ajustes general";
+
+/* Class = "UITextField"; placeholder = "Nombre"; ObjectID = "5MD-RG-jzV"; */
+"5MD-RG-jzV.placeholder" = "Nombre";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5re-YK-j17"; */
+"5re-YK-j17.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6IL-a7-rfX"; */
+"6IL-a7-rfX.text" = "Label";
+
+/* Class = "UILabel"; text = "Foto perfil:"; ObjectID = "9cv-Ht-Pel"; */
+"9cv-Ht-Pel.text" = "Foto perfil:";
+
+/* Class = "UISegmentedControl"; ArR-CK-HAe.segmentTitles[0] = "General"; ObjectID = "ArR-CK-HAe"; */
+"ArR-CK-HAe.segmentTitles[0]" = "General";
+
+/* Class = "UISegmentedControl"; ArR-CK-HAe.segmentTitles[1] = "Personal"; ObjectID = "ArR-CK-HAe"; */
+"ArR-CK-HAe.segmentTitles[1]" = "Personal";
+
+/* Class = "UITabBarItem"; title = "Amigos"; ObjectID = "DWp-SR-TCd"; */
+"DWp-SR-TCd.title" = "Amigos";
+
+/* Class = "UILabel"; text = "Registro"; ObjectID = "EHJ-ss-0Ud"; */
+"EHJ-ss-0Ud.text" = "Registro";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ET1-29-4te"; */
+"ET1-29-4te.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Editar"; ObjectID = "FQR-f3-xsR"; */
+"FQR-f3-xsR.normalTitle" = "Editar";
+
+/* Class = "UIButton"; normalTitle = "Ver Próximos Conciertos"; ObjectID = "GjS-Qh-S9N"; */
+"GjS-Qh-S9N.normalTitle" = "Ver Próximos Conciertos";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ISG-Yl-4ax"; */
+"ISG-Yl-4ax.text" = "Label";
+
+/* Class = "UILabel"; text = "¿Eres nuevo?"; ObjectID = "IUC-wY-JmB"; */
+"IUC-wY-JmB.text" = "¿Eres nuevo?";
+
+/* Class = "UILabel"; text = "0:00"; ObjectID = "Ki5-QK-9R9"; */
+"Ki5-QK-9R9.text" = "0:00";
+
+/* Class = "UITextField"; placeholder = "Usuario"; ObjectID = "LEl-x1-qBM"; */
+"LEl-x1-qBM.placeholder" = "Usuario";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "MNY-ne-9TJ"; */
+"MNY-ne-9TJ.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "Recordar Contraseña"; ObjectID = "NcP-Lq-SKc"; */
+"NcP-Lq-SKc.normalTitle" = "Recordar Contraseña";
+
+/* Class = "UILabel"; text = "Nombre Artitsta"; ObjectID = "Nh9-5w-xPC"; */
+"Nh9-5w-xPC.text" = "Nombre Artitsta";
+
+/* Class = "UIButton"; normalTitle = "Registrar"; ObjectID = "ObA-0a-GWO"; */
+"ObA-0a-GWO.normalTitle" = "Registrar";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "OcH-Rz-TKh"; */
+"OcH-Rz-TKh.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "P9C-Ni-6Kd"; */
+"P9C-Ni-6Kd.text" = "Label";
+
+/* Class = "UILabel"; text = "Álbunes"; ObjectID = "P9r-KA-msI"; */
+"P9r-KA-msI.text" = "Álbunes";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QQo-zG-270"; */
+"QQo-zG-270.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Contraseña"; ObjectID = "UBw-Oh-Igq"; */
+"UBw-Oh-Igq.placeholder" = "Contraseña";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UiU-80-MrI"; */
+"UiU-80-MrI.text" = "Label";
+
+/* Class = "UILabel"; text = "Detalles - Poner nombre aqui"; ObjectID = "VO7-kH-UPk"; */
+"VO7-kH-UPk.text" = "Detalles - Poner nombre aqui";
+
+/* Class = "UILabel"; text = "Fecha Nacimiento"; ObjectID = "X9N-wN-ch6"; */
+"X9N-wN-ch6.text" = "Fecha Nacimiento";
+
+/* Class = "UITabBarItem"; title = "TOP"; ObjectID = "XhA-XJ-hWc"; */
+"XhA-XJ-hWc.title" = "TOP";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Xok-Gy-sNB"; */
+"Xok-Gy-sNB.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YaU-2y-5J4"; */
+"YaU-2y-5J4.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Olvidar contraseña"; ObjectID = "Yd5-f0-yS1"; */
+"Yd5-f0-yS1.normalTitle" = "Olvidar contraseña";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "aHm-Qy-YEd"; */
+"aHm-Qy-YEd.placeholder" = "Email";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "dMC-i6-euu"; */
+"dMC-i6-euu.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "Localización propia"; ObjectID = "g4D-0p-pUn"; */
+"g4D-0p-pUn.text" = "Localización propia";
+
+/* Class = "UITextField"; placeholder = "Nombre"; ObjectID = "gEZ-uH-Dqz"; */
+"gEZ-uH-Dqz.placeholder" = "Nombre";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ggO-u7-r6N"; */
+"ggO-u7-r6N.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gy3-Kh-K1V"; */
+"gy3-Kh-K1V.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Ajustes"; ObjectID = "kXg-dC-fsv"; */
+"kXg-dC-fsv.title" = "Ajustes";
+
+/* Class = "UITabBarItem"; title = "Reproductor"; ObjectID = "lmJ-SR-L5Z"; */
+"lmJ-SR-L5Z.title" = "Reproductor";
+
+/* Class = "UITabBarItem"; title = "Lista"; ObjectID = "n64-wr-wV5"; */
+"n64-wr-wV5.title" = "Lista";
+
+/* Class = "UITabBarItem"; title = "Favoritos"; ObjectID = "pz8-do-dpb"; */
+"pz8-do-dpb.title" = "Favoritos";
+
+/* Class = "UILabel"; text = "Editar perfil"; ObjectID = "svH-MZ-baA"; */
+"svH-MZ-baA.text" = "Editar perfil";
+
+/* Class = "UILabel"; text = "Recordar Contraseña"; ObjectID = "tr1-3T-0PC"; */
+"tr1-3T-0PC.text" = "Recordar Contraseña";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "u8B-bG-PiS"; */
+"u8B-bG-PiS.text" = "Login";
+
+/* Class = "UILabel"; text = "Edad"; ObjectID = "vQR-eC-4nd"; */
+"vQR-eC-4nd.text" = "Edad";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xNm-dp-yLR"; */
+"xNm-dp-yLR.text" = "Label";
+
+/* Class = "UILabel"; text = "Conciertos de Artista"; ObjectID = "zXN-LO-PVm"; */
+"zXN-LO-PVm.text" = "Conciertos de Artista";
