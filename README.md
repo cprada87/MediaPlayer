@@ -6,8 +6,8 @@ Final project of course iOS, was created in group.
 
 Controllers created by me:
 
-loginViewController
-registerViewController
-forgotPasswordViewController
-settingsGeneralViewController
-editProfileViewController
+- loginViewController
+- registerViewController
+- forgotPasswordViewController
+- settingsGeneralViewController
+- editProfileViewController
