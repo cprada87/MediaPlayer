@@ -9,5 +9,5 @@ Controllers created by me:
 loginViewController
 registerViewController
 forgotPasswordViewController
-fettingsGeneralViewController
+settingsGeneralViewController
 editProfileViewController
